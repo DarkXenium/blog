@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: "Quicksand";
+}
+
+$mainColor: crimson;
+
+$width: 1024px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

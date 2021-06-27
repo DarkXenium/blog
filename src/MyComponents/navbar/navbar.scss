@@ -1,0 +1,28 @@
+@import "../../global.scss";
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ffd6d6;
+    h1 {
+        color: $mainColor;
+    }
+    
+    .links {
+        padding-left: 50px;
+        a {
+            margin-left: 16px;
+            text-decoration: none;
+            padding: 6px;
+            font-weight: bold;
+            
+            &:hover{
+                color: $mainColor;
+            }
+
+        }
+    }
+}
