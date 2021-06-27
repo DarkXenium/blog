@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './create.scss';
 import { useHistory } from 'react-router-dom';
+import {motion} from 'framer-motion';
 
 export default function Create() {
 
@@ -40,6 +41,7 @@ export default function Create() {
                 />
                 <label >Blog Body:</label>
                 <textarea
+                rows="10"
                     required
                     value={body}
                     onChange={(e) => setBody(e.target.value)}
@@ -52,8 +54,24 @@ export default function Create() {
                     value={author}
                     onChange={(e) => setAuthor(e.target.value)}
                 />
-                {!isPending && <button>Add blog</button>}
-                {isPending && <button>Adding blog....</button>}
+                {!isPending && <motion.button
+                initial={{y:30}}
+                animate={{y:0}}
+                whileHover={{
+                    scale:1.1,
+                    boxShadow:"0px 0px 3px black",
+                 
+                }}
+                >Add blog</motion.button>}
+                {isPending && <motion.button
+                initial={{y:30}}
+                animate={{y:0}}
+                whileHover={{
+                    scale:1.1,
+                    boxShadow:"0px 0px 3px black",
+                    
+                }}
+                >Adding blog....</motion.button>}
             </form>
         </div>
     )

@@ -1,23 +1,27 @@
 @import "../../global.scss";
 
 .navbar {
-    padding: 20px;
+    padding:10px;
     display: flex;
     align-items: center;
-    max-width: 600px;
-    margin: 0 auto;
-    border-bottom: 1px solid #ffd6d6;
+    max-width: auto;
+    border-bottom: 1px solid #e3b8ff;
     h1 {
+        padding-left: 50px;
         color: $mainColor;
+        font-size: 30px;
+        display: flex;
+        align-items: flex-start;
     }
     
     .links {
-        padding-left: 50px;
+        padding-left: 600px;
         a {
-            margin-left: 16px;
+            margin-left: 40px;
             text-decoration: none;
-            padding: 6px;
+            padding-left: 10px;
             font-weight: bold;
+            color: black;
             
             &:hover{
                 color: $mainColor;

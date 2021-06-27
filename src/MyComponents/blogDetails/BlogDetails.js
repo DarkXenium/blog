@@ -1,6 +1,7 @@
 import { useHistory, useParams } from "react-router";
 import useFetch from '../../useFetch';
 import './blogDetails.scss';
+import {motion} from 'framer-motion'
 
 export default function BlogDetails() {
 
@@ -9,9 +10,9 @@ export default function BlogDetails() {
     const history = useHistory();
 
     const handleClick = () => {
-        fetch('http://localhost:8000/blogs/' + blog.id,{
-            method:'DELETE'
-        }).then(()=>{
+        fetch('http://localhost:8000/blogs/' + blog.id, {
+            method: 'DELETE'
+        }).then(() => {
             history.push('/');
         })
     }
@@ -23,9 +24,21 @@ export default function BlogDetails() {
             {blog && (
                 <article>
                     <h2>{blog.title}</h2>
-                    <p>Written by {blog.author}</p>
-                    <div>{blog.body}</div>
-                    <button onClick={handleClick}>Delete</button>
+                    <motion.p
+                    initial={{opacity:0}}
+                    animate={{opacity:1}}
+                    transition={{duration:0.4}}
+                    >Written by {blog.author}</motion.p>
+                    <div className="body">{blog.body}</div>
+                    <motion.button onClick={handleClick}
+                        initial={{ x:600,y: 110 }}
+                        animate={{ x:650,y:-9 }}
+                        whileHover={{
+                            scale: 1.1,
+                            boxShadow: "0px 0px 3px black",
+
+                        }}
+                    >Delete</motion.button>
                 </article>
             )}
         </div>
