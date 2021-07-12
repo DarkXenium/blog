@@ -14,10 +14,15 @@ export default function Home() {
           whileTap={{ scale: 0.9 }}
         >
             <div className="b1">
-<div className="img"><img id="b1" src="mygif.gif" alt="" /></div>
+                <div className="contents">
+                    <div className="left"><div className="img"><img id="b1" src="mygif.gif" alt="" /></div></div>
+                    <div className="right">For the circle pulsing animation, you'll notice that there is a continuity where as one circle effortlessly fades away another circle prominently arrives to take its place......</div>
+                    <span>Written on - 29 June 2021</span>
+                </div>
+
             <div class="wrap-collabsible">
             <input id="collapsible" className="toggle" type="checkbox" ></input>
-            <label for="collapsible" class="lbl-toggle">BLOG #1 - Circle Animation using CSS (PULSE)</label>
+            <label for="collapsible" class="lbl-toggle">BLOG #1 - (PULSE) Growing Circle Animation using CSS <small>(3 min. read)</small></label>
             <div class="collapsible-content">
     <div class="content-inner">
     <h2>WHAT WE ARE WORKING TOWARDS</h2>
@@ -30,6 +35,7 @@ export default function Home() {
 
 </p>
                 <h2>THE CODE</h2>
+                
 <div id="img"><img src="code.png" alt="" /></div>
                 
                 <h2>THE CONCLUSION</h2>
@@ -40,10 +46,15 @@ export default function Home() {
             </div>
             </div>
             <div className="b1" >
-<div className="img" ><img id="b2" src="giphy.gif" alt="" /></div>
+            <div className="contents">
+                    <div className="left"><div className="img" ><img id="b2" src="giphy.gif" alt="" /></div></div>
+                    <div className="right">The main goal of technology, which brings together tools to promote development, use, and information exchange, is to make tasks easier and to solve many of humanity's problems.......</div>
+                    <span>Written on - 7 July 2021</span>
+                </div>
+
             <div class="wrap-collabsible">
             <input id="collapsible2" className="toggle" type="checkbox"></input>
-            <label for="collapsible2" class="lbl-toggle">BLOG #2 - EVOLVING TECHNOLOGY AND IT'S IMPORTANCE</label>
+            <label for="collapsible2" class="lbl-toggle">BLOG #2 - EVOLVING TECHNOLOGY AND IT'S IMPORTANCE  <small>(2 min. read)</small></label>
             <div class="collapsible-content">
     <div class="content-inner">
                 <p>The main goal of technology, which brings together tools to promote development, use, and information exchange, is to make tasks easier and to solve many of humanity's problems. We must emphasize how beneficial technology is to our lives as it advances and makes our lives even more convenient.</p>
@@ -65,6 +76,38 @@ export default function Home() {
         </div>
         </div>
         </div>
+            <div className="b1">
+                <div className="contents">
+                    <div className="left"><div className="img"><img id="b" src="sites.jpg" alt="" /></div></div>
+                    <div className="right">A great way to improve your skills when learning to code is by solving coding challenges,but there are many platforms and hard to choose where to invest time.......</div>
+                    <span>Written on - 12 July 2021</span>
+                </div>
+
+            <div class="wrap-collabsible">
+            <input id="collapsible3" className="toggle" type="checkbox" ></input>
+            <label for="collapsible3" class="lbl-toggle">BLOG #3 - Best Coding platforms to learn and practice Code! <small>(3 min. read)</small></label>
+            <div class="collapsible-content">
+    <div class="content-inner">
+<p>A great way to improve your skills when learning to code is by solving coding challenges,but there are many platforms and thus it becomes hard to choose where to invest time and but worry not here I am to help you with choosing the platform which is right for you. When I started out I was really confused but as time flew *sad noises*, as you know coding takes a huge chuck of time in your day and I discovered many great platforms. I'll list my top favourite ones down below :-</p>                
+
+                <h2>1. HackerRank</h2>
+<div className="img"><img src="https://cdn-images-1.medium.com/max/2600/1*UGT1Rh9xLww3JeIDR1F0RQ.png" alt="" /></div>
+                
+                <p>It is a great platform where you can choose the language you want to improve upon. The Difficulty curve is greatly maintained. Also as you progress you get badges in the form of stars from 1 star covered in bronze to shining gold when you reach 5 star, which really motivates to grow and get better.</p>
+                <h2>2. CodeChef</h2>
+<div className="img"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Codechef%28new%29_logo.svg/1200px-Codechef%28new%29_logo.svg.png" alt="" /></div>
+                <p>Well once you complete your basics you can work your way upto Competetive Programming(CP) and here at codechef you get Long challenges which is really unique compared to other CP websites which is really beneficial to a beginner who can get to know about the question while practicing and learning.</p>
+                
+                <h2>3. CodeForces</h2>
+<div className="img"><img src="https://codeforces.org/s/87383/images/codeforces-telegram-square.png" alt="" /></div>
+                <p>You can further improve upon CP on codeforces as the questions here are really tough and you need to apply the various DS and Algorithms to solve these questions.You can go from a Noobie to a full fledged grandmaster with many good prizes if you manage to be in the top 10.</p>
+                <h2>My Conclusion</h2>
+                <p>I've also heard that the platform LeetCode is really great even though I haven't used in personally, None the less all the best to the future Coders out their, I hope these platforms help you unlock your potential and reach great heights.</p>
+                
+    </div>
+  </div>
+            </div>
+            </div>
         </motion.div>
     );
 }

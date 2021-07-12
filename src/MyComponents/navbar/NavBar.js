@@ -16,6 +16,8 @@ export default function NavBar() {
                     transition={{ delay: 0.1 }}
                 
                 >AVINASH KUMAR BLOGS</motion.h2>
+                <a href="https://github.com/DarkXenium"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" className="img" alt="" /></a>
+                <a href="https://www.instagram.com/avinash.2077k/"><img src="https://www.freepnglogos.com/uploads/instagram-logo-png-transparent-0.png" className="img2" alt="" /></a>
             </nav>
         </div>
     )

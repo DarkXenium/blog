@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .navbar {
-    padding:10px;
+    padding: 10px;
     background-color: rgb(36, 32, 32);
     display: flex;
     align-items: center;
@@ -13,14 +13,35 @@
         font-size: 40px;
         display: flex;
         align-items: flex-start;
-        font-size:40px;
+        font-size: 40px;
     }
-    h2{
+    h2 {
         margin-left: 600px;
         color: rgb(0, 209, 209);
         font-size: 20px;
     }
-    
+
+    .img {
+        width: 34px;
+        position: relative;
+        left: 130px;
+        height: 34px;
+        -webkit-filter: invert(1);
+        filter: invert(1);
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .img2 {
+        width: 50px;
+        position: relative;
+        left: 150px;
+        height: 50px;
+        &:hover{
+            transform: scale(1.1);
+        }
+        
+    }
     .links {
         padding-left: 600px;
         a {
@@ -29,11 +50,10 @@
             padding-left: 10px;
             font-weight: bold;
             color: black;
-            
-            &:hover{
+
+            &:hover {
                 color: $mainColor;
             }
-
         }
     }
 }
