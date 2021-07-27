@@ -22,7 +22,7 @@ export default function Home() {
 
             <div class="wrap-collabsible">
             <input id="collapsible" className="toggle" type="checkbox" ></input>
-            <label for="collapsible" class="lbl-toggle">BLOG #1 - (PULSE) Growing Circle Animation using CSS <small>(3 min. read)</small></label>
+            <label for="collapsible" class="lbl-toggle">BLOG #1 - (PULSE) Growing Circle Animation using CSS <small>(1 min. read)</small></label>
             <div class="collapsible-content">
     <div class="content-inner">
     <h2>WHAT WE ARE WORKING TOWARDS</h2>
@@ -84,8 +84,8 @@ export default function Home() {
                 </div>
 
             <div class="wrap-collabsible">
-            <input id="collapsible3" className="toggle" type="checkbox" ></input>
-            <label for="collapsible3" class="lbl-toggle">BLOG #3 - Best Coding platforms to learn and practice Code! <small>(3 min. read)</small></label>
+            <input id="collapsible4" className="toggle" type="checkbox" ></input>
+            <label for="collapsible4" class="lbl-toggle">BLOG #3 - Best Coding platforms to learn and practice Code! <small>(1 min. read)</small></label>
             <div class="collapsible-content">
     <div class="content-inner">
 <p>A great way to improve your skills when learning to code is by solving coding challenges,but there are many platforms and thus it becomes hard to choose where to invest time and but worry not here I am to help you with choosing the platform which is right for you. When I started out I was really confused but as time flew *sad noises*, as you know coding takes a huge chuck of time in your day and I discovered many great platforms. I'll list my top favourite ones down below :-</p>                
@@ -103,6 +103,44 @@ export default function Home() {
                 <p>You can further improve upon CP on codeforces as the questions here are really tough and you need to apply the various DS and Algorithms to solve these questions.You can go from a Noobie to a full fledged grandmaster with many good prizes if you manage to be in the top 10.</p>
                 <h2>My Conclusion</h2>
                 <p>I've also heard that the platform LeetCode is really great even though I haven't used in personally, None the less all the best to the future Coders out their, I hope these platforms help you unlock your potential and reach great heights.</p>
+                
+    </div>
+  </div>
+            </div>
+            </div>
+            <div className="b1">
+                <div className="contents">
+                    <div className="left"><div className="img"><img id="b1" src="https://user-images.githubusercontent.com/34159717/64080396-5d011180-cd11-11e9-8320-99a5619af9ce.png" alt="" /></div></div>
+                    <div className="right">AWS Deepracer is a fun way to learn and implement Machine learning with hands on experience.......</div>
+                    <span>Written on - 27 July 2021</span>
+                </div>
+
+            <div class="wrap-collabsible">
+            <input id="collapsible5" className="toggle" type="checkbox" ></input>
+            <label for="collapsible5" class="lbl-toggle">BLOG #4 - Reinforcement Learning with AWS DeepRacer <small>(2 min. read)</small></label>
+            <div class="collapsible-content">
+    <div class="content-inner">
+    <h2>WHAT WE ARE WORKING TOWARDS</h2>
+    <p>AWS Deepracer is a fun way to learn and implement Machine learning with hands on experience. Developers of all skill levels can get hands on with machine learning through a cloud based 3D racing simulator, which they can start using simply by logging into their aws account. AWS DeepRacer is based on the model of reinforcement learning (RL). RL is an advanced machine learning (ML) technique that takes a very different approach to training models than other machine learning methods.</p>
+                <h2>WHAT AWS DEEPRACER SERVICES PROVIDE</h2>
+                <p>The user can now use the AWS DeepRacer 3D racing simulator.  Experiment with multiple sensor inputs, the latest reinforcement learning algorithms, neural network configurations and simulation to-real domain transfer methods.
+</p>
+<div className="img"><img src="aws.png" alt="" /></div>
+                <h2>HOW TO BEGIN</h2>
+<p>You will first need to create your own deepracer car by selecting the type of car, the skin you want on it, the track you want it to run on. And finally, you can train your model by setting the time you want it to train for and then testing it! As you progress you can participate in the AWS League.It is a global autonomous racing league, driven by machine learning.There are 3 stages that you can advance to :-</p>
+<h2>1. Start in the Open Division and win virtual cars</h2>
+<h2>2. Advance to the Pro Division and win gear</h2>
+<h2>3. Take on the League's best and win a DeepRacer</h2>
+                
+                <p>It is a fun community of many Machine learning Enthusiast and you can meet many new people thorugh the various community driven events.</p>
+                <h2>CONCLUSION</h2>
+                <p>Here are some of the official AWS links from their website containing various resources from where you can learn to build your own models and tracks. You can also improve your racing performance.</p>
+              
+            <a className="hello" href="https://youtu.be/9hzPYLxd6Mw">https://youtu.be/9hzPYLxd6Mw</a>
+            <a className="hello" href="https://youtu.be/xBpglYdmdyw">https://youtu.be/xBpglYdmdyw</a>
+            <a className="hello" href="https://youtu.be/a6q-safxklY">https://youtu.be/a6q-safxklY</a>
+            <a className="hello" href="https://youtu.be/YSSdFnBZ5gc">https://youtu.be/YSSdFnBZ5gc</a>
+            <p>That's it, time to get your hands dirty! All the best.</p>
                 
     </div>
   </div>
